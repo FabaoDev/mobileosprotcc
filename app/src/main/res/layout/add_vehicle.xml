@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_geral">
+
+    <!-- Texto do Título -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MobileOSPro"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Veículos"
+        android:textSize="35sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:id="@+id/etOwnerName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Nome do Proprietário" />
+
+    <EditText
+        android:id="@+id/etOwnerMail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Email do proprietário" />
+
+    <EditText
+        android:id="@+id/etOwnerCpf"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="CPF do proprietário" />
+
+    <EditText
+        android:id="@+id/etVehicleModel"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Modelo do Veículo" />
+
+    <EditText
+        android:id="@+id/etVehiclePlate"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Placa do Veículo" />
+
+    <EditText
+        android:id="@+id/etVehicleYear"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="45dp"
+        android:hint="Ano do Veículo" />
+
+    <Button
+        android:id="@+id/btnAddVehicle"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:padding="10dp"
+        android:text="Salvar Veículo"
+        android:textColorHint="#3C3B3B" />
+</LinearLayout>

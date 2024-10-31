@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.mobileospro">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileOSPro"
+        tools:targetApi="31">
+
+        <!-- LoginActivity como tela principal do aplicativo -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main principal do sistema
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> -->
+
+        <!-- Tela pós login do cliente -->
+        <activity
+            android:name=".ClienteDashboardActivity" />
+
+        <!-- Tela de cadastro de clientes -->
+        <activity
+            android:name=".AddClient"
+            android:exported="true" />
+
+        <!-- Tela cadastro de funcionários -->
+        <activity
+            android:name=".AddEmployee"
+            android:exported="true" />
+
+        <!-- Tela cadastro de veículos -->
+        <activity
+            android:name=".AddVehicles"
+            android:exported="true" />
+
+        <!-- Atividade para histórico de clientes -->
+        <activity
+            android:name=".ManageClientsActivity"
+            android:exported="true" />
+
+        <!-- Atividade para Gerenciamento de OS -->
+        <activity
+            android:name=".ManageOrdersActivity"
+            android:exported="true" />
+
+        <!-- Atividade para Gerenciamento de Peças -->
+        <activity
+            android:name=".ManageStockActivity"
+            android:exported="true" />
+
+        <!-- Atividade para Gerenciamento de Relatórios -->
+        <activity
+            android:name=".RatingReportActivity"
+            android:exported="true" />
+
+        <!-- Atividade para Relatórios de registros -->
+        <activity
+            android:name=".AddUser"
+            android:exported="true" />
+
+        <!-- Atividade para reporte dos clientes -->
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="true" />
+
+        <!-- Atividade para votação dos clientes -->
+        <activity
+            android:name=".ServiceRatingActivity"
+            android:exported="true" />
+
+        <!-- Atividade para relatório de votação dos clientes -->
+        <activity
+            android:name=".ServiceReportActivity"
+            android:exported="true" />
+
+        <!-- Atividade para agendamento de OS -->
+        <activity
+            android:name=".ServiceScheduleActivity"
+            android:exported="true" />
+
+        <!-- Atividade para relatório de estoque de peças -->
+        <activity
+            android:name=".StockReportActivity"
+            android:exported="true" />
+
+        <!-- Atividade para registro de veículos
+        <activity
+            android:name=".VehicleRegisterActivity"
+            android:exported="true" />-->
+
+        <activity android:name=".AdminDashboardActivity" />
+
+
+        <activity android:name=".FuncionarioDashboardActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etOrderClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Cliente" />
+
+        <EditText
+            android:id="@+id/etOrderVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Veículo" />
+
+        <EditText
+            android:id="@+id/etOrderDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição do Problema"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/etOrderServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Serviços a Realizar" />
+
+        <EditText
+            android:id="@+id/etOrderEstimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estimativa de Preço"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnAddOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar OS" />
+
+        <ListView
+            android:id="@+id/lvOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+</ScrollView>

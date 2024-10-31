@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relatórios"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnServiceReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relatório de OSs" />
+
+    <Button
+        android:id="@+id/btnStockReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relatório de Estoque" />
+
+    <Button
+        android:id="@+id/btnRatingReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relatório de Avaliações" />
+</LinearLayout>

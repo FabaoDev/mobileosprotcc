@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_cadastro">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Cadastro de usuário"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etClientName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Nome" />
+
+    <EditText
+        android:id="@+id/etClientAddress"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Endereço" />
+
+    <EditText
+        android:id="@+id/etClientPhone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Telefone" />
+
+    <EditText
+        android:id="@+id/etOwnerCpf"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="CPF" />
+
+    <EditText
+        android:id="@+id/etOwnerMail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#3C3B3B"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text_background"
+        android:layout_marginBottom="15dp"
+        android:hint="Senha" />
+
+    <Button
+        android:id="@+id/btnAddClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Cliente"
+        android:layout_gravity="center" />
+
+    <Spinner
+        android:id="@+id/spnUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+</LinearLayout>
