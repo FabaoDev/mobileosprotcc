@@ -6,6 +6,7 @@ dentro do curso de Bacharelado em Engenharia de Software.
 O trabalho a ser realizado é um aplicativo mobile voltado para Oficinas Mecânicas.
 
 Esse sistema será desenvolvido em linguagem de programação java.
+
 <-------------------------------------------------------------------------------->
 
 O que será implantado no software:
